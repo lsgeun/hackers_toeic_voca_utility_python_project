@@ -3,7 +3,7 @@ import re
 
 # * 공통적으로 필요한 변수를 전역 변수로 선언
 # 현재 파일 경로와 현재 폴더 경로를 정의
-md_file_path = "/Users/isgeun/Library/Mobile Documents/iCloud~md~obsidian/Documents/NOTE-iCloud_Drive/1 Projects/해커스 토익 기출 보카/2 Day 02 드레스코드 - 규칙 법률.md"
+md_file_path = "/Users/isgeun/Library/Mobile Documents/iCloud~md~obsidian/Documents/NOTE-iCloud_Drive/1 Projects/해커스 토익 Reading/1 GRAMMAR PART 5, 6/1-2-3-3 목적격 보어를 갖는 동사.md"
 current_directory_path = os.path.dirname(md_file_path)
 
 # file_lines에서 word_means를 찾아내기 위한 패턴

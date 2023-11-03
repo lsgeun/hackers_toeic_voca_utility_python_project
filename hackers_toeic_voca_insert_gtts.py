@@ -133,7 +133,7 @@ def insert_example_sentence_tts_mp3_file_link():
         insert_index += len(example_sentence_2i_plus_1_th)
 
 # 파일 및 부모 폴더 경로와 파일명(확장자 있는 것과 없는 것)을 변수로 받음
-md_file_path = "/Users/isgeun/Library/Mobile Documents/iCloud~md~obsidian/Documents/NOTE-iCloud_Drive/1 Projects/해커스 토익 기출 보카/2 Day 02 드레스코드 - 규칙 법률.md"
+md_file_path = "/Users/isgeun/Library/Mobile Documents/iCloud~md~obsidian/Documents/NOTE-iCloud_Drive/1 Projects/해커스 토익 Reading/1 GRAMMAR PART 5, 6/1-2-3-3 목적격 보어를 갖는 동사.md"
 
 current_directory_path = os.path.dirname(md_file_path)
 md_file_name = md_file_path.split('/')[-1]; md_file_name_no_ext = md_file_name[:-3]
